@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shape\Shapes.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banks", "Banks\Banks.csproj", "{5235D58F-5AC6-49E7-B2F0-3BD062DA74E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception", "TestException\Exception.csproj", "{2B7725C1-67E8-4FAD-BD68-03245B838133}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5235D58F-5AC6-49E7-B2F0-3BD062DA74E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5235D58F-5AC6-49E7-B2F0-3BD062DA74E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5235D58F-5AC6-49E7-B2F0-3BD062DA74E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7725C1-67E8-4FAD-BD68-03245B838133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7725C1-67E8-4FAD-BD68-03245B838133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7725C1-67E8-4FAD-BD68-03245B838133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7725C1-67E8-4FAD-BD68-03245B838133}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
