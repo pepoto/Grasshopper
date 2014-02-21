@@ -27,29 +27,22 @@ namespace TestGraphics
         int targetNumber = 5;
 
         Bitmap cre;
-
-        Bitmap background;
+         Bitmap background;
         Bitmap dragonImage;
         
 
         Rectangle r = new Rectangle(0,0,30,30);
-        // proba
-
-
-
+        
         Timer t;
         //string back = @"../../cr.jpg";
         string mon = @"../../ELM.gif";
         string dragon = @"../../dragon.gif";
-        string monkey = @"../../monkey.gif";
+        //string monkey = @"../../monkey.gif";
         static string media = @"../../elmerlaugh.wav";
         Graphics g;
         Graphics gc;
 
-
         System.Media.SoundPlayer sp = new System.Media.SoundPlayer(media);
-
-
         public Form1()
         {
             InitializeComponent();
@@ -115,8 +108,6 @@ namespace TestGraphics
                 gc.DrawImage(dragonImage, target);
 
             }
-            
-
             gc.DrawString(counter.ToString(), new Font("Arial", 12), Brushes.Aqua, new Point(10, 10));
             return background;
         }
