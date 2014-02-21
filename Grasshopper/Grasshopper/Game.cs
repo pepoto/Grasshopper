@@ -15,7 +15,7 @@ namespace Grasshopper
         static char[,] playerField = new char[MAX_HEIGHT, MAX_WIDTH];
         
         static ConsoleColor fieldGroundColor = ConsoleColor.Gray;
-        static ConsoleColor fieldLinesColor = ConsoleColor.Green;
+        static ConsoleColor fieldLinesColor = ConsoleColor.Black;
 
         static void DrawPlayerField(char[,] matrix)
         {
