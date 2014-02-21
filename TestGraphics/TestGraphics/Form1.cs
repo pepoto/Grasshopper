@@ -30,9 +30,10 @@ namespace TestGraphics
 
         Bitmap background;
         Bitmap dragonImage;
+        
 
-        Rectangle r = new Rectangle(0, 0, 30, 30);
-
+        Rectangle r = new Rectangle(0,0,30,30);
+        // proba
 
 
 
@@ -40,6 +41,7 @@ namespace TestGraphics
         //string back = @"../../cr.jpg";
         string mon = @"../../ELM.gif";
         string dragon = @"../../dragon.gif";
+        string monkey = @"../../monkey.gif";
         static string media = @"../../elmerlaugh.wav";
         Graphics g;
         Graphics gc;
@@ -75,6 +77,7 @@ namespace TestGraphics
 
             //g.DrawImage(cre,r);
             g.DrawImage(dragonImage, r);
+            
         }
 
         void t_Tick(object sender, EventArgs e)
@@ -110,7 +113,9 @@ namespace TestGraphics
             foreach (Rectangle target in targets)
             {
                 gc.DrawImage(dragonImage, target);
-            }           
+
+            }
+            
 
             gc.DrawString(counter.ToString(), new Font("Arial", 12), Brushes.Aqua, new Point(10, 10));
             return background;
