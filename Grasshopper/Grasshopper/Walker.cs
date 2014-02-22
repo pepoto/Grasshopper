@@ -7,5 +7,8 @@ namespace Grasshopper
 {
     public class Walker : Character
     {
+        public Walker(string name, string imageUrl, Point location, int defense)
+            :base(name,imageUrl,location,defense)
+        { }
     }
 }

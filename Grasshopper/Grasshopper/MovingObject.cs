@@ -15,7 +15,7 @@ namespace Grasshopper
         {
             this.Energy = 100;
         }
-
+       
         public void GoTo(Point destination)
         {
             int distance = Point.GetManhattanDistance(this.Location, destination);

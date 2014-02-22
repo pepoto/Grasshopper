@@ -22,23 +22,23 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.Policeman">
-    <Position X="2.5" Y="6" Width="1.5" />
+    <Position X="2.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Policeman.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.Walker">
-    <Position X="5.5" Y="6" Width="1.5" />
+    <Position X="4.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Walker.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.BGmom">
-    <Position X="4.25" Y="3.25" Width="1.5" />
+    <Position X="4.25" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAAAAAQAAAAAAAAAAAAQACAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BGmom.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -126,6 +126,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ResourceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Grasshopper.Weapons">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAA=</HashCode>
+      <FileName>Weapons.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />
