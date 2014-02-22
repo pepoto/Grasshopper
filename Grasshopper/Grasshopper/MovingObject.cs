@@ -15,6 +15,8 @@ namespace Grasshopper
         {
             this.Energy = 100;
         }
+
+
        
         public void GoTo(Point destination)
         {

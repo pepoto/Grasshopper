@@ -8,6 +8,10 @@ namespace Grasshopper
     public class WalkingStick : StaticObject,  IResource
     {
         public const int Price = 100;
+        public WalkingStick(string imageUrl, Point location)
+            : base(imageUrl, location)
+        {
+        }
 
         public int Quantity
         {

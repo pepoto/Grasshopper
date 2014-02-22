@@ -10,6 +10,11 @@ namespace Grasshopper
     {
         public const int Price = 50;
 
+        public Syringe(string imageUrl, Point location)
+            : base(imageUrl, location)
+        {
+        }
+
         public int Quantity
         {
             get { throw new NotImplementedException(); }

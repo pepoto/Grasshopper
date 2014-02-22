@@ -8,6 +8,13 @@ namespace Grasshopper
     public class HangBag : StaticObject,  IResource
     {
         public const int Price = 200;
+
+         public HangBag(string imageUrl, Point location)
+            : base(imageUrl, location)
+        {
+        }
+
+
         public int Quantity
         {
             get { throw new NotImplementedException(); }

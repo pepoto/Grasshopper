@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Grasshopper
 {
-    public class GrandMother //: MovingObject
+    public class GrandMother : Character
     {
-
+        public  GrandMother(string name, string imageUrl, Point location, int defense)
+            : base(name, imageUrl, location, defense)
+        {
+            this.
+        }
+    
     }
 }
