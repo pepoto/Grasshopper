@@ -105,6 +105,13 @@
       <FileName>Gun.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Grasshopper.MovingObject">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovingObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Struct Name="Grasshopper.Position" Collapsed="true">
     <Position X="9.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>

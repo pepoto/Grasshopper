@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Grasshopper
 {
-    public abstract class Character : GameObject
+    public abstract class Character : MovingObject
     {
         public bool IsAlive { get; protected set; }
 
