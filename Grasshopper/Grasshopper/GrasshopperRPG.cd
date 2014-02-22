@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.GameObject">
-    <Position X="6" Y="0.5" Width="2" />
+    <Position X="6.25" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAABAIAAAAAAAAAAAAAAAAAAIAAAEA=</HashCode>
       <FileName>GameObject.cs</FileName>
@@ -36,7 +36,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.BGmom">
-    <Position X="4.25" Y="3" Width="1.5" />
+    <Position X="4.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAQAAAAAAAAAAAAQACAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BGmom.cs</FileName>
@@ -115,7 +115,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Struct Name="Grasshopper.Position" Collapsed="true">
-    <Position X="9.25" Y="0.75" Width="1.5" />
+    <Position X="2.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Position.cs</FileName>
@@ -129,7 +129,7 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="Grasshopper.Weapons">
-    <Position X="1" Y="0.75" Width="1.5" />
+    <Position X="14.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAA=</HashCode>
       <FileName>Weapons.cs</FileName>
