@@ -9,6 +9,12 @@ namespace Grasshopper
     {
         public const int Price = 200;
 
+         public Gun(string imageUrl, Point location)
+            : base(imageUrl, location)
+        {
+        }
+
+
         public int Quantity
         {
             get { throw new NotImplementedException(); }

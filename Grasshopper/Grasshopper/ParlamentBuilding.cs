@@ -7,5 +7,11 @@ namespace Grasshopper
 {
     public class PalamentBuilding : StaticObject
     {
+        public PalamentBuilding(string imageUrl, Point location)
+            : base(imageUrl, location)
+        {
+        }
+
+
     }
 }

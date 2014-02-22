@@ -55,7 +55,6 @@
     <Compile Include="Money.cs" />
     <Compile Include="MovingObject.cs" />
     <Compile Include="ParlamentBuilding.cs" />
-    <Compile Include="Position.cs" />
     <Compile Include="Policeman.cs" />
     <Compile Include="Politicion.cs" />
     <Compile Include="Point.cs" />

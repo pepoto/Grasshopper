@@ -7,6 +7,12 @@ namespace Grasshopper
 {
     public class Money : StaticObject, IResource
     {
+        public Money(string imageUrl, Point location)
+            : base(imageUrl, location)
+        {
+        }
+
+
 
         public int Quantity
         {

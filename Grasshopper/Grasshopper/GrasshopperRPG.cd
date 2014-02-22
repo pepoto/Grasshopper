@@ -120,13 +120,6 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Struct Name="Grasshopper.Position" Collapsed="true">
-    <Position X="2.5" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Position.cs</FileName>
-    </TypeIdentifier>
-  </Struct>
   <Enum Name="Grasshopper.ResourceType">
     <Position X="11.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>

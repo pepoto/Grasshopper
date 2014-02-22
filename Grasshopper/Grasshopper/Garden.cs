@@ -7,5 +7,9 @@ namespace Grasshopper
 {
     public class Garden : StaticObject
     {
+        public Garden(string imageUrl, Point location)
+            : base(imageUrl, location)
+        {
+        }
     }
 }
