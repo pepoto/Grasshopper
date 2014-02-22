@@ -47,7 +47,6 @@
     <Compile Include="Game.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="Garden.cs" />
-    <Compile Include="Guard.cs" />
     <Compile Include="Gun.cs" />
     <Compile Include="HangBag.cs" />
     <Compile Include="Money.cs" />

@@ -14,6 +14,13 @@ namespace Grasshopper
 
         public int Defense { get; private set; }
 
+        private  Character(string name, string imageUrl, Point location, int defense)
+            : base(imageUrl, location)
+        {
+            this.Name = name;
+            
+            this.Defense = defense;
+        }
         protected Character(string name, string imageUrl, Point location, int strength, int defense)
             : base(imageUrl, location)
         {
