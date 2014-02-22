@@ -14,13 +14,6 @@
       <FileName>GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Grasshopper.MovingObject">
-    <Position X="3.25" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MovingObject.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Grasshopper.Character">
     <Position X="1.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
@@ -74,7 +67,7 @@
     <Position X="6.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>PalamentBuilding.cs</FileName>
+      <FileName>ParlamentBuilding.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.Garden">
