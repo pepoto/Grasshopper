@@ -5,14 +5,15 @@ using System.Text;
 
 namespace Grasshopper
 {
-    public class BGmom : MovingObject
+    public class BGmom : Character
     {
         public  string Name { get; set;}
         
-        public BGmom (string name,string imageUmrl,Point location)
-            :base(imageUmrl,location)
+
+        protected BGmom(string name, string imageUrl, Point location, int defense) : base(name, imageUrl, location, defense)
         {
-            this.Name = name;
         }
+
+
     }
 }
