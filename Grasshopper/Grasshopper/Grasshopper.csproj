@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="BGmom.cs" />
     <Compile Include="Character.cs" />
-    <Compile Include="Direction.cs" />
+    <Compile Include="Engine.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="Garden.cs" />
@@ -51,11 +51,10 @@
     <Compile Include="Gun.cs" />
     <Compile Include="HangBag.cs" />
     <Compile Include="Money.cs" />
-    <Compile Include="MovingObject.cs" />
-    <Compile Include="PalamentBuilding.cs" />
+    <Compile Include="ParlamentBuilding.cs" />
     <Compile Include="Policeman.cs" />
     <Compile Include="Politicion.cs" />
-    <Compile Include="Position.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResourceType.cs" />
     <Compile Include="StaticObject.cs" />
