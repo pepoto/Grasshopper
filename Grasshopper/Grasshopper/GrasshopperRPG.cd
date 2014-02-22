@@ -113,7 +113,7 @@
     </TypeIdentifier>
   </Class>
   <Struct Name="Grasshopper.Position" Collapsed="true">
-    <Position X="9.25" Y="0.5" Width="1.5" />
+    <Position X="8.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Position.cs</FileName>
@@ -124,13 +124,6 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ResourceType.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="Grasshopper.Direction">
-    <Position X="9.5" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Direction.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />
