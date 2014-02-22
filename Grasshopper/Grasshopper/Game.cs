@@ -51,11 +51,16 @@ namespace Grasshopper
             }
 
         }
-
+        List<Politicion> politicList = new List<Politicion>();
         static void Main ()
         {
             PlayerField(playerField);
             DrawPlayerField(playerField);
+            Politicion gad = new Politicion(new Position(7, 7), 1);
+
+            gad.position.row = 11;
+            gad.position.col = 11;
+            gad.dir = Direction.rigth;
             
         }
 
