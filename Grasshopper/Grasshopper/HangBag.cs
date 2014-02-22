@@ -5,24 +5,16 @@ using System.Text;
 
 namespace Grasshopper
 {
-    public class HangBag : StaticObject,  IResource
+    public class HangBag : Weapon,  IResource
     {
         public const int Price = 200;
 
          public HangBag(string imageUrl, Point location)
             : base(imageUrl, location)
         {
+            base.Power = 200;
         }
 
 
-        public int Quantity
-        {
-            get { throw new NotImplementedException(); }
-        }
-
-        public ResourceType Type
-        {
-            get { return ResourceType.Weapon; }
-        }
     }
 }

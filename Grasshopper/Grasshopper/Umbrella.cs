@@ -5,22 +5,16 @@ using System.Text;
 
 namespace Grasshopper
 {
-    public class Umbrella : StaticObject,  IResource
+    public class Umbrella : Weapon,  IResource
     {
         public const int Price = 50;
 
         public Umbrella(string imageUrl, Point location)
             : base(imageUrl, location)
         {
-        }
-        public int Quantity
-        {
-            get { throw new NotImplementedException(); }
+            base.Power = 200;
         }
 
-        public ResourceType Type
-        {
-            get { return ResourceType.Weapon; }
-        }
+        
     }
 }

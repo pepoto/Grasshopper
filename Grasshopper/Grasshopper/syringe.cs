@@ -6,23 +6,17 @@ using System.Threading.Tasks;
 
 namespace Grasshopper
 {
-    public class Syringe : StaticObject, IResource
+    public class Syringe : Weapon, IResource
     {
         public const int Price = 50;
 
         public Syringe(string imageUrl, Point location)
             : base(imageUrl, location)
         {
+            base.Power = 200;
+
         }
 
-        public int Quantity
-        {
-            get { throw new NotImplementedException(); }
-        }
-
-        public ResourceType Type
-        {
-            get { return ResourceType.Weapon; }
-        }
+       
     }
 }

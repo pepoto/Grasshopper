@@ -65,6 +65,7 @@
     <Compile Include="Umbrella.cs" />
     <Compile Include="Walker.cs" />
     <Compile Include="WalkingStick.cs" />
+    <Compile Include="Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
