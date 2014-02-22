@@ -11,7 +11,7 @@ namespace Grasshopper
         public  GrandMother(string name, string imageUrl, Point location, int defense)
             : base(name, imageUrl, location, defense)
         {
-            this.
+           
         }
     
     }
