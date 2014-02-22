@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Grasshopper
 {
-    public interface IDrawable
+    interface IDrawable
     {
-        string ImageURL { get; }
     }
 }

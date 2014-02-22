@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Grasshopper
 {
-    public class WalkingStick : StaticObject,  IResource
+    public class Syringe : StaticObject, IResource
     {
-        public const int Price = 100;
+        public const int Price = 50;
 
         public int Quantity
         {

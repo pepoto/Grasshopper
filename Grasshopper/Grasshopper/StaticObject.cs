@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Grasshopper
 {
-    public abstract class StaticObject : GameObject
+    public abstract class StaticObject // : GameResource 
     {
     }
 }
