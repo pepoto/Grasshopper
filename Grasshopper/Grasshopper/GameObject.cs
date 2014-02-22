@@ -9,7 +9,9 @@ namespace Grasshopper
     public abstract class GameObject : IDrawable
     {
         private string imageUrl;
-
+        public int row;
+        public int col;
+        
         public string ImageURL
         {
             get { return this.imageUrl; }
@@ -24,6 +26,8 @@ namespace Grasshopper
             }
         }
 
+        
+        public GameObject() { }
         public bool IsAvailable { get; protected set; }
 
         public Point Location { get; protected set; }
@@ -34,5 +38,7 @@ namespace Grasshopper
             this.Location = location;
             this.IsAvailable = true;
         }
+
+        
     }
 }

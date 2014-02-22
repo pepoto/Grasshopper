@@ -3,14 +3,14 @@
   <Class Name="Grasshopper.MainGame" Collapsed="true">
     <Position X="0.75" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAgAAAAQAAAAGAAAAAAAAIAAAAQACAAAAAABIAAAAA=</HashCode>
+      <HashCode>AAAgAAAAACBAAGAAAAAAAAIAAAAQACAAAEAABIAAAAA=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.GameObject">
     <Position X="6.25" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAIAAAAAAAAAAAAAAAAAAIAAAEA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAABAIAAQACAAEAAAAAgAAAAIAAAEA=</HashCode>
       <FileName>GameObject.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -18,14 +18,14 @@
   <Class Name="Grasshopper.Character">
     <Position X="1.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAgAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAFAAgAAAAAAAgAAAAA=</HashCode>
       <FileName>Character.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.Policeman">
     <Position X="2.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>IAAAAAAAACAgAAAAAAAAIAAAAQIAAQAAAAAAAAAAIAA=</HashCode>
       <FileName>Policeman.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -37,7 +37,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.BGmom">
-    <Position X="4.5" Y="3" Width="1.5" />
+    <Position X="4.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BGmom.cs</FileName>
@@ -51,7 +51,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.PalamentBuilding">
-    <Position X="6.5" Y="4" Width="1.5" />
+    <Position X="6.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ParlamentBuilding.cs</FileName>
@@ -66,14 +66,6 @@
   </Class>
   <Class Name="Grasshopper.Syringe">
     <Position X="10" Y="4.75" Width="1.5" />
-    <InheritanceLine Type="Grasshopper.StaticObject" ManuallyRouted="true">
-      <Path>
-        <Point X="13" Y="3.368" />
-        <Point X="13" Y="3.571" />
-        <Point X="10.75" Y="3.571" />
-        <Point X="10.75" Y="4.75" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
       <FileName>Syringe.cs</FileName>
@@ -81,7 +73,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Grasshopper.HangBag">
-    <Position X="14.25" Y="4.25" Width="1.5" />
+    <Position X="14.25" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
       <FileName>HangBag.cs</FileName>
@@ -89,7 +81,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Grasshopper.WalkingStick">
-    <Position X="16.25" Y="4.5" Width="1.5" />
+    <Position X="14.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
       <FileName>WalkingStick.cs</FileName>
@@ -115,7 +107,7 @@
   <Class Name="Grasshopper.MovingObject">
     <Position X="3.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAAAAAAAIA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAACEAAAAAgAAAAAAAAIA=</HashCode>
       <FileName>MovingObject.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />

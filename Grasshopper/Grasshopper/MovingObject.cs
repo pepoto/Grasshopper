@@ -8,6 +8,9 @@ namespace Grasshopper
 {
     public abstract class MovingObject : GameObject, IDrawable
     {
+        private int p1;
+        private int p2;
+
         public int Energy { get; private set; }
 
         protected MovingObject(string imageUrl, Point location)
@@ -15,8 +18,15 @@ namespace Grasshopper
         {
             this.Energy = 100;
         }
+        
+        public MovingObject() { }
 
-
+        public MovingObject(int p1, int p2)
+        {
+            // TODO: Complete member initialization
+            this.p1 = p1;
+            this.p2 = p2;
+        }
        
         public void GoTo(Point destination)
         {

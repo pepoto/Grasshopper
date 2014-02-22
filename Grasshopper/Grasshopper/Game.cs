@@ -10,13 +10,13 @@ namespace Grasshopper
 
     class MainGame
     {
-        const int MAX_WIDTH = 60;
+        const int MAX_WIDTH = 75;
         const int MAX_HEIGHT = 23;
         static char[,] playerField = new char[MAX_HEIGHT, MAX_WIDTH];
-        
+         static Policeman playerFieldPosition = new Policeman(12, 0);
         static ConsoleColor fieldGroundColor = ConsoleColor.Gray;
         static ConsoleColor fieldLinesColor = ConsoleColor.Black;
-
+        static List<Policeman> gadsList = new List<Policeman>();
         static void DrawPlayerField(char[,] matrix)
         {
             for (int i = 0; i < matrix.GetLength(0); i++)
@@ -51,12 +51,22 @@ namespace Grasshopper
             }
 
         }
-        List<Politicion> politicList = new List<Politicion>();
+
+        static void PrintGad(Policeman gad)
+        {
+            playerField[gad.position.row, gad.position.col] = gad.body;
+            Console.SetCursorPosition(gad.position.col + playerFieldPosition.col, gad.position.row + playerFieldPosition.row);
+            Console.BackgroundColor = gad.background;
+            Console.ForegroundColor = gad.foreground;
+            Console.Write(gad.body);
+        }
         static void Main ()
         {
             PlayerField(playerField);
             DrawPlayerField(playerField);
-           
+            Policeman gad = new Policeman(new Policeman(7, 7), 1);
+            gad.dir = Direction.up;
+            gadsList.Add(gad);
             
         }
 

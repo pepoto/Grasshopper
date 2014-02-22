@@ -6,6 +6,7 @@ using System.Text;
 
 namespace Grasshopper
 {
+    public enum Direction { up,down,left,rigth}
     public abstract class Character : MovingObject
     {
         public string Name { get; private set; }
@@ -13,8 +14,24 @@ namespace Grasshopper
         public int Strength { get; private set; }
 
         public int Defense { get; private set; }
-        
 
+        protected Character() { }
+
+        public int Row
+        {
+            get;
+            set;
+        }
+        public int Col
+        {
+            get;
+            set;
+        }
+        public Character(int row, int col)
+        {
+            this.Row = row;
+            this.Col = col;
+        }
         protected  Character(string name, string imageUrl, Point location, int defense)
             : base(imageUrl, location)
         {
