@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Grasshopper
 {
-    
-    class Game
+
+    class MainGame : Character
     {
         const int MAX_WIDTH = 60;
         const int MAX_HEIGHT = 23;

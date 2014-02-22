@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Grasshopper
 {
-    class TestClass
+    public class Money : StaticObject
     {
-       
     }
 }

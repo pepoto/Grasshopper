@@ -41,10 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BGmom.cs" />
+    <Compile Include="Character.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="Garden.cs" />
+    <Compile Include="Guard.cs" />
+    <Compile Include="Gun.cs" />
+    <Compile Include="HangBag.cs" />
+    <Compile Include="Money.cs" />
+    <Compile Include="MovingObject.cs" />
+    <Compile Include="PalamentBuilding.cs" />
+    <Compile Include="Policeman.cs" />
+    <Compile Include="Politicion.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestClass.cs" />
+    <Compile Include="ResourceType.cs" />
+    <Compile Include="StaticObject.cs" />
+    <Compile Include="Umbrela.cs" />
+    <Compile Include="Walker.cs" />
+    <Compile Include="WalkingStick.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
