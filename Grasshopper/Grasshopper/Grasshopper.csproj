@@ -52,6 +52,7 @@
     <Compile Include="HangBag.cs" />
     <Compile Include="IDrawable.cs" />
     <Compile Include="IResource.cs" />
+    <Compile Include="MatrixCords.cs" />
     <Compile Include="Money.cs" />
     <Compile Include="MovingObject.cs" />
     <Compile Include="ParlamentBuilding.cs" />

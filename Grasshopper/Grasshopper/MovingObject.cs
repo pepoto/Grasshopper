@@ -19,6 +19,7 @@ namespace Grasshopper
             this.Energy = 100;
         }
         
+
         public MovingObject() { }
 
         public MovingObject(int p1, int p2)

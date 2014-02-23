@@ -10,7 +10,7 @@
   <Class Name="Grasshopper.GameObject">
     <Position X="6.25" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAIAAQACAAEAAAAAgAAAAIAAAEA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAABAIAAQACAAAAAAAAAAAAAIAAAEA=</HashCode>
       <FileName>GameObject.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -37,7 +37,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Grasshopper.BGmom">
-    <Position X="4.5" Y="3.5" Width="1.5" />
+    <Position X="4.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BGmom.cs</FileName>
@@ -67,7 +67,7 @@
   <Class Name="Grasshopper.Syringe">
     <Position X="10" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Syringe.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -75,7 +75,7 @@
   <Class Name="Grasshopper.HangBag">
     <Position X="14.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HangBag.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -91,7 +91,7 @@
   <Class Name="Grasshopper.Money">
     <Position X="8.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQAAgAAAAAA=</HashCode>
       <FileName>Money.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -99,7 +99,7 @@
   <Class Name="Grasshopper.Gun">
     <Position X="8.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Gun.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
