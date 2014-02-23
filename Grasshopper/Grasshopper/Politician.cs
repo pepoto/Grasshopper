@@ -5,8 +5,8 @@ using System.Text;
 
 namespace Grasshopper
 {
-    public struct Politicion 
+    public class Politician : Character 
     {
-        
+
     }
 }

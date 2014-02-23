@@ -7,7 +7,7 @@ using System.Text;
 namespace Grasshopper
 {
     public enum Direction { up,down,left,rigth}
-    public abstract class Character : MovingObject
+    public abstract class Character : GameObject
     {
         public string Name { get; private set; }
 
